@@ -1,0 +1,31 @@
+Nama	: Tanti Siti Nurjanah
+NIM	: 1137050210
+
+1. Tag <ImageView>
+2. Attribute di file xml
+3. iLikePracticeSetsTheBest
+4. Layout
+5. <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="Click Me" />
+ </RelativeLayout>
+6. a) Layout dengan orientasi vertical (row) memiliki 3 buah textView diantaranya:
+   	-TextView dengan tulisan Ukuran 1 dengan size 54sp font colornya putih dan backgroudnya berwarna hijau toska
+	-TextView dengan tulisan Ukuran 2 dengan size 54sp font colornya dan backgroudnya berwarna hijau toska terletak dibawah textview    		 Ukuran 1
+	-TextView dengan tulisan Ukuran 3 dengan size 34sp font colornya putih dan backgroudnya berwarna hijau toska terletak dibawah textview 
+	 Ukuran 2
+b) Layout dengan orientasi horizontal (Column) memiliki 3 buah textView yang sama rata lebarnya diantaranya:
+   	-TextView dengan tulisan 1 dengan size 54sp font colornya putih dan backgroudnya berwarna hijau toska
+	-TextView dengan tulisan 2 dengan size 54sp font colornya dan backgroudnya berwarna hijau toska terletak disamping textview    		 1
+	-TextView dengan tulisan 3 dengan size 34sp font colornya putih dan backgroudnya berwarna hijau toska terletak disamping textview 
+	 2
+
